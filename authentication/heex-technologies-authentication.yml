@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: https://doc.heex.io/docs/command-line-interface/cli-utilities/authentification
+docs: https://doc.heex.io/docs/interface-guide/administration/api-keys
+note: >-
+  No OpenAPI/Swagger is published by Heex, so this profile is captured from the
+  developer documentation (Docusaurus/Mintlify site at doc.heex.io) rather than
+  derived from a spec. The heex.io and doc.heex.io deployments were offline
+  (Vercel DEPLOYMENT_DISABLED / 404) at probe time; content verified via the
+  Internet Archive snapshots crawled through 2026-03.
+summary:
+  types: [apiKey, oauth2, http]
+  api_key_in: [header]
+  oauth2_flows: [authorizationCode]
+schemes:
+  - name: UserSecretKey
+    type: apiKey
+    in: header
+    description: >-
+      USER_SECRET_KEY issued from the user's personal space on the Heex Cloud
+      platform; required by the Heex CLI to operate the HeexSDK and interact with
+      Heex Cloud.
+    sources: [https://doc.heex.io/docs/command-line-interface/cli-overview]
+  - name: PlatformAPIKeys
+    type: apiKey
+    in: header
+    description: >-
+      API keys managed under Administration in the Heex web platform
+      (interface-guide/administration/api-keys) for programmatic access.
+    sources: [https://doc.heex.io/docs/interface-guide/administration/api-keys]
+  - name: OAuth2
+    type: oauth2
+    scheme: authorizationCode
+    description: >-
+      OAuth 2.0 is used for platform logins (per the heex.io Security section).
+    sources: [https://www.heex.io/en-gb/security]
+  - name: BearerJWT
+    type: http
+    scheme: bearer
+    bearerFormat: JWT
+    description: >-
+      JWT bearer tokens are used for API authentication; agent-to-cloud
+      communication is secured over HTTPS/TLS (per the heex.io Security section).
+    sources: [https://www.heex.io/en-gb/security]
