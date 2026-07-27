@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://doc.heex.io/docs/changelog
+scheme: calver
+scheme_note: >-
+  Calendar-based versioning of the form YEAR.MONTH.PATCH (e.g. 2025.4.1,
+  2025.5.1, 2025.08.1). Documentation is published per version under
+  doc.heex.io/docs/versions/version-<v>.
+observed_versions:
+  - '2025.1.1'
+  - '2025.2.1'
+  - '2025.2.2'
+  - '2025.4.1'
+  - '2025.5.1'
+  - '2025.08.1'
+  - '2025.10.1'
+  - '2025.11.1'
+  - '2025.12.1'
+current_version_observed: '2025.12.1'
+entries: []
+note: >-
+  The changelog page (Mintlify, client-rendered) could not be parsed into
+  dated entries from the archive; version list derived from the published
+  doc.heex.io/docs/versions/* set. Live changelog was offline at probe time
+  (doc.heex.io 404) and last Archive crawl of the changelog was 2026-03-09.

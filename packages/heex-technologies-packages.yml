@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://doc.heex.io/docs/development/sdk/about-the-sdk
+registry_probe:
+  note: >-
+    No first-party Heex client library was found on npm, PyPI, Maven Central,
+    NuGet, pkg.go.dev, RubyGems, Packagist, or crates.io. Heex ships a
+    proprietary agent SDK and CLI distributed via its own installer/update
+    mechanism, not a public package registry.
+packages:
+  - name: HeexSDK
+    language: cpp
+    registry: vendor
+    official: true
+    url: https://doc.heex.io/docs/development/sdk/about-the-sdk
+    install: Heex installer (production-deployment/heex-installer)
+    description: >-
+      First-party C++ agent SDK for integrating Heex Smart-Data capture into
+      autonomous systems; supports ROS/ROS2 middleware, custom monitors and
+      recorders, on Ubuntu 20.04/22.04/24.04 (x86_64 and ARM).
+  - name: Heex CLI
+    language: cli
+    registry: vendor
+    official: true
+    url: https://doc.heex.io/docs/command-line-interface/cli-overview
+    install: Heex installer / update mechanism
+    description: >-
+      First-party command-line tool to operate the HeexSDK and interact with
+      Heex Cloud. Command surface catalogued in cli/heex-technologies-cli.yml.
+note: >-
+  Live surface offline at probe time (doc.heex.io 404); SDK/CLI details verified
+  via Internet Archive snapshots (2025-04 through 2026-01).

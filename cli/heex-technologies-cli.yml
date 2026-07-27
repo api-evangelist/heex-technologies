@@ -1,0 +1,54 @@
+generated: '2026-07-19'
+method: searched
+source: https://doc.heex.io/docs/command-line-interface/cli-overview
+name: Heex CLI
+description: >-
+  Command-line tool to perform most operations on the HeexSDK and interact with
+  Heex Cloud (define triggers, list events/recordings, manage datasources and
+  workspaces). Requires a USER_SECRET_KEY from the user's personal space on the
+  Heex Cloud platform.
+authentication: USER_SECRET_KEY (see authentication/heex-technologies-authentication.yml)
+platforms:
+  os: [Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS]
+  arch: [x86_64, ARM]
+install:
+  - method: installer
+    note: >-
+      Distributed via the Heex installer / update mechanism documented under
+      Development and CLI Utilities; not published to a public package registry.
+    docs: https://doc.heex.io/docs/development/production-deployment/heex-installer
+commands:
+  - group: system
+    docs: https://doc.heex.io/docs/command-line-interface/system
+  - group: datasource
+    docs: https://doc.heex.io/docs/command-line-interface/datasource
+  - group: signal
+    docs: https://doc.heex.io/docs/command-line-interface/signal
+  - group: trigger
+    docs: https://doc.heex.io/docs/command-line-interface/trigger
+  - group: implementation
+    docs: https://doc.heex.io/docs/command-line-interface/implementation
+  - group: events
+    docs: https://doc.heex.io/docs/command-line-interface/events
+  - group: recordings
+    docs: https://doc.heex.io/docs/command-line-interface/recordings
+  - group: agent
+    docs: https://doc.heex.io/docs/command-line-interface/agent
+  - group: sdk
+    docs: https://doc.heex.io/docs/command-line-interface/sdk
+  - group: workspace
+    docs: https://doc.heex.io/docs/command-line-interface/workspace
+  - group: quotas
+    docs: https://doc.heex.io/docs/command-line-interface/quotas
+  - group: whoami
+    docs: https://doc.heex.io/docs/command-line-interface/whoami
+utilities:
+  - name: completion
+  - name: update
+  - name: authentication
+  - name: advanced-configuration
+  - name: trigger-options-help
+  - name: llm
+note: >-
+  Live docs were offline at probe time (doc.heex.io 404); command surface
+  verified from Internet Archive snapshots (2025-04 through 2026-01).

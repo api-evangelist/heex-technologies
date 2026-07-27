@@ -1,8 +1,31 @@
 aid: heex-technologies
 name: Heex Technologies
-description: Heex Technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Heex Technologies builds the Smart-Data Platform, an event-based data
+  management solution for autonomous systems, robotics, and ADAS/AD vehicles.
+  Instead of moving raw big data off fleets, Heex lets engineering teams define
+  Smart Events with pre-set triggers so software agents capture only the most
+  relevant, context-rich data ("Smart-Data") directly at the edge or in the
+  cloud. The platform spans a Heex Agent/SDK deployed on robots and vehicles
+  (Ubuntu x86_64/ARM, ROS/ROS2), a Heex CLI for operating the SDK and Heex Cloud,
+  and a web platform for triggers, events, recordings, and fleet monitoring. It
+  is used across AMRs, industrial robots, smart mobility, and off-road autonomy,
+  with customers and partners including NVIDIA, Siemens, RATP, Vinci, Stanley
+  Robotics, Apex.AI and Helm.AI. Backed by Techstars, Google for Startups, and
+  AWS Activate.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/heex/Zy4gYa8jQArT0o-N_HomePAge.png?auto=format,compress
 url: https://raw.githubusercontent.com/api-evangelist/heex-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +33,26 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status-note: >-
+  As of 2026-07-19 the heex.io and app.heex.io deployments returned Vercel
+  DEPLOYMENT_DISABLED (HTTP 402) and doc.heex.io returned 404; the developer
+  surface below is real and was live/crawled through 2026-03 (verified via the
+  Internet Archive). Pointers reference the provider's canonical URLs.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Autonomous Systems
+- Robotics
+- Autonomous Vehicles
+- ADAS
+- Data Management
+- Edge Computing
+- Fleet Monitoring
+- Smart Data
+- SDK
+- CLI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +62,41 @@ maintainers:
 common:
 - type: Website
   url: https://heex.io/
+- type: DeveloperPortal
+  url: https://doc.heex.io/
+- type: Documentation
+  url: https://doc.heex.io/docs/getting-started/heex-overview
+- type: GettingStarted
+  url: https://doc.heex.io/docs/getting-started/quick-start-guide
+- type: CLI
+  name: Heex CLI
+  url: cli/heex-technologies-cli.yml
+- type: Packages
+  name: Heex packages
+  url: packages/heex-technologies-packages.yml
+- type: SDKs
+  name: HeexSDK
+  url: packages/heex-technologies-packages.yml
+- type: Authentication
+  url: authentication/heex-technologies-authentication.yml
+- type: Conventions
+  url: conventions/heex-technologies-conventions.yml
+- type: Lifecycle
+  url: lifecycle/heex-technologies-lifecycle.yml
+- type: ChangeLog
+  url: https://doc.heex.io/docs/changelog
+- type: DomainSecurity
+  url: security/heex-technologies-domain-security.yml
+- type: Login
+  url: https://app.heex.io/
+- type: Support
+  url: https://www.heex.io/en-gb/contact
+- type: TermsOfService
+  url: https://www.heex.io/en-gb/terms
+- type: PrivacyPolicy
+  url: https://www.heex.io/en-gb/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

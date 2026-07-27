@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://doc.heex.io/docs/changelog
+versioning:
+  scheme: calver
+  pattern: YEAR.MONTH.PATCH
+  current: '2025.12.1'
+  docs: https://doc.heex.io/docs/versions
+  note: >-
+    Versioned documentation is published per release under
+    doc.heex.io/docs/versions/version-<v>; agents can be remotely updated
+    over-the-air.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No published deprecation/Sunset policy was found.
+sla:
+  url: null
+status_page:
+  note: >-
+    Heex runs per-customer status pages (e.g. status.<customer>.heex.io) rather
+    than a single public global status page; no canonical public status page was
+    confirmed, so no StatusPage pointer is emitted.
+deprecated_operations: []
+note: >-
+  No public OpenAPI to derive deprecated operations from. Live surface offline
+  at probe time; verified via Internet Archive.

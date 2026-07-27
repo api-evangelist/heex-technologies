@@ -1,0 +1,45 @@
+generated: '2026-07-19'
+method: searched
+source: https://doc.heex.io/docs/getting-started/key-concepts
+authentication:
+  style: api-key + oauth2 + jwt
+  detail: >-
+    USER_SECRET_KEY (personal space) and platform API keys for programmatic
+    access; OAuth 2.0 for platform login; JWT bearer for API authentication.
+  ref: authentication/heex-technologies-authentication.yml
+transport_security:
+  agent_to_cloud: HTTPS/TLS
+  source: https://www.heex.io/en-gb/security
+core_concepts:
+  - name: Smart Event
+    detail: >-
+      An event-based, pre-set trigger that defines the conditions under which
+      the Heex agent captures a small, relevant package of data ("Smart-Data")
+      at the edge or in the cloud.
+  - name: Trigger
+    detail: Conditions/signals that fire a Smart Event.
+  - name: Signal
+    detail: Input stream/values evaluated by triggers.
+  - name: Recording
+    detail: The captured data package associated with a fired event.
+  - name: Datasource
+    detail: A source of data an agent monitors (e.g. ROS/ROS2 topics).
+  - name: Agent
+    detail: >-
+      Heex software agent deployed on the autonomous system (Ubuntu x86_64/ARM,
+      ROS/ROS2), reprogrammable over-the-air from the central platform.
+idempotency:
+  supported: false
+  note: No idempotency-key contract is documented; no Idempotency pointer emitted.
+pagination:
+  note: Not documented in the public developer material reviewed.
+versioning:
+  ref: lifecycle/heex-technologies-lifecycle.yml
+  scheme: calver (YEAR.MONTH.PATCH)
+quotas:
+  note: >-
+    The CLI and platform expose a quotas surface (command-line-interface/quotas)
+    governing data/usage limits.
+note: >-
+  Derived from Heex developer docs (CLI/SDK/getting-started). Live surface
+  offline at probe time; verified via Internet Archive.
