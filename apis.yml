@@ -38,7 +38,7 @@ x-status-note: >-
   DEPLOYMENT_DISABLED (HTTP 402) and doc.heex.io returned 404; the developer
   surface below is real and was live/crawled through 2026-03 (verified via the
   Internet Archive). Pointers reference the provider's canonical URLs.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
