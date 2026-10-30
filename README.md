@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Heex Technologies is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Heex Technologies builds the Smart-Data Platform, an event-based data management solution for autonomous systems, robotics, and ADAS/AD vehicles. Instead of moving raw big data off fleets, Heex lets engineering teams define Smart Events with pre-set triggers so software agents capture only the most relevant, context-rich data ("Smart-Data") directly at the edge or in the cloud. The platform spans a Heex Agent/SDK deployed on robots and vehicles (Ubuntu x86_64/ARM, ROS/ROS2), a Heex CLI for operating the SDK and Heex Cloud, and a web platform for triggers, events, recordings, and fleet monitoring. It is used across AMRs, industrial robots, smart mobility, and off-road autonomy, with customers and partners including NVIDIA, Siemens, RATP, Vinci, Stanley Robotics, Apex.AI and Helm.AI. Backed by Techstars, Google for Startups, and AWS Activate.
 
-Backed by: techstars — https://heex.io/
+**Areas:** Company · Autonomous Systems · Robotics · Autonomous Vehicles · ADAS · Data Management · Edge Computing · Fleet Monitoring · Smart Data · SDK · CLI
+
+## Heex Technologies on APIs.io
+
+Everything profiled for Heex Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/heex-technologies/](https://apis.io/providers/heex-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Heex Technologies Authentication](https://apis.io/security/heex-technologies/heex-technologies-authentication/)
+- [Heex Technologies Domain Security](https://apis.io/security/heex-technologies/heex-technologies-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://heex.io/)
+- [Documentation](https://doc.heex.io/docs/getting-started/heex-overview)
+- [Getting started](https://doc.heex.io/docs/getting-started/quick-start-guide)
+- [Support](https://www.heex.io/en-gb/contact)
+- [Changelog](https://doc.heex.io/docs/changelog)
+- [Blog](https://www.heex.io/en-gb/blog)
+- [Terms of service](https://www.heex.io/en-gb/terms)
+- [Privacy policy](https://www.heex.io/en-gb/privacy)
+
+## API Evangelist rating
+
+**Kin Score 17.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 27.6 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/heex-technologies/](https://apis.io/providers/heex-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Heex Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/heex-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
